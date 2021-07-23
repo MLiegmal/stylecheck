@@ -36,4 +36,4 @@ As already mentioned, "Stylecheck"  will work less reliably if the data basis is
 
 ## What next?
 
-As a future projetc you could image to turn the spit and evolute "stylecheck" to "stylecopy": A Tool which can imitate ones wirting style so convincing that even "stylecheck" wouldn't be able to make a difference. It could be fun if you use it to write a drama in the of Shaakespeare, but it also could be dangerous it you use it to generate fake threatening letters, diaries or e-mails.
+As a future project you could image to turn the spit and evolve "stylecheck" to "stylecopy": A tool which can imitate ones writing style so convincing that even "stylecheck" wouldn't be able to make a difference. It could be fun if you use it to write a drama in the style of Shaakespeare, but it also could be dangerous if you use it to generate fake threatening letters, diaries or e-mails.
