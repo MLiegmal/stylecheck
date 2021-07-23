@@ -8,72 +8,31 @@ Final project for the Building AI course
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
-
+"Stylecheck" will be a tool to analyze the writing style of a text. It can be used to identify the true author of a text by comparing many different parameters: Sentence length, sentence structure, word choice, word repetition, spelling and much more. It is therefore suitable for linguists working historically as well as for forensic scientists.
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
-
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
-
+The concern that "Stylecheck" focuses on is arguably a niche one. In this clearly defined area, however, where the tool could find application, its advantages would be clear:
+- The effort of laboriously comparing texts by hand would henceforth be done by a machine
+- Human error and subjectivity would be replaced by fact-based rationality
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+Imagine someone on the Internet announcing an assassination with a manifesto. The announced crime scene is cordoned off as a security precaution, and the crime does not take place. Several suspects come into question, all of whom deny the accusations. "Stylecheck" could now compare earlier writings of the suspects with the manifesto to calculate which of them is most likely the author. Particularly striking parallels could even be used as circumstantial evidence in the interrogation.
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+In a very similar way, researchers could try to assign historical documents to their true author. Is a war report genuine or is it a forgery? Who wrote this play? And differently: did this person really write this play or did he have a ghostwriter?
 
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
-
+All questions involving the authorship of a piece of writing could be reanalyzed with the help of computer technology.
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+The data set depends on the topic you want to analyze. If you are interested in the writing style of a famous author, you should analyze his books (it would be best to buy his e-books) or - if he is long dead - you could use an online library as input.
+As far as "Stylecheck" is used in investigative procedures, the data set will include everything you can get your hands on - the data base will be quite small anyway, because for understandable reasons criminals always try to leave as few traces as possible.
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+As already mentioned, "Stylecheck"  will work less reliably if the data basis is too small. Furthermore, it provides probabilities at best - it cannot guarantee its results.
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
-
-
-## Acknowledgments
-
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+As a future projetc you could image to turn the spit and evolute "stylecheck" to "stylecopy": A Tool which can imitate ones wirting style so convincing that even "stylecheck" wouldn't be able to make a difference. It could be fun if you use it to write a drama in the of Shaakespeare, but it also could be dangerous it you use it to generate fake threatening letters, diaries or e-mails.
