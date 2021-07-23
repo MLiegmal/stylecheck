@@ -26,8 +26,9 @@ All questions involving the authorship of a piece of writing could be reanalyzed
 
 ## Data sources and AI methods
 
-The data set depends on the topic you want to analyze. If you are interested in the writing style of a famous author, you should analyze his books (it would be best to buy his e-books) or - if he is long dead - you could use an online library as input.
-As far as "Stylecheck" is used in investigative procedures, the data set will include everything you can get your hands on - the data base will be quite small anyway, because for understandable reasons criminals always try to leave as few traces as possible.
+The data set depends on the topic you want to analyze. If you are interested in the writing style of a famous author, you should analyze his books (it would be best to buy his e-books) or - if he is long dead - you could use an online library as input. As far as "Stylecheck" is used in investigative procedures, the data set will include everything you can get your hands on - the data base will be quite small anyway, because for understandable reasons criminals always try to leave as few traces as possible.
+
+The core of the tool would be text analysis, which means to measure sentence length, identify off-beat words, check spelling, and identify similar factors. This is done both in the object to be identified (representing the test data) and in the objects already identified (representing the training data).
 
 ## Challenges
 
